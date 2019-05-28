@@ -1,0 +1,141 @@
+@font-face{
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+
+body{
+    
+    font-family: 'Cabin', sans-serif;
+    color: #5d5d5d;
+    background-color: #bcbcbc42;
+    margin: 0;
+}
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 13em;
+    display: block;
+}
+
+li{
+    list-style: none;
+    
+}
+
+nav{
+    
+    background-color:	#EAB81E;
+    border: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+aside{
+    flex: 15%;
+    background-color:	#EAB81E;
+    border: 1px solid grey;
+  
+    
+}
+
+.donate{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#button{
+    
+    background-color: darkorange;
+    width: 100px;
+    border-radius: 5px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+#button a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: darkorange;
+}
+
+#button:hover{
+    background-color: antiquewhite;
+}
+
+header{
+    border-bottom: 1px solid grey;
+    box-shadow: 10px 5px 0px;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 85%;
+    padding: 10px;
+}
+
+article img{
+    
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    display: block;
+    margin-left: 60px;
+}
+
+p {
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+
+iframe{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+  blockquote {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 90%;
+}
+
+
+footer{
+    border-top: 1px grey solid;
+    background-color:	#24255C;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
